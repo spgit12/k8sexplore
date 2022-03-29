@@ -5,9 +5,9 @@ metadata:
 spec:
   containers:
   - name: nginx-priya
-    image: nginx
-  - name: watcher-priya
-    image: afakharany/watcher
+    image: nginx:latest
     ports:
-    - containerPort: 8080    
+    - containerPort: 8080 
+  - name: watcher-priya
+    image: afakharany/watcher     
     
